@@ -42,8 +42,7 @@ cd draid-spdk
 sudo apt update
 sudo apt install nasm
 
-sudo apt remove nasm
-y
+sudo apt remove nasm -y
 
 #下载 NASM 新版本源代码：
 cd /tmp
