@@ -1,4 +1,3 @@
-amd263.utah.cloudlab.us
-amd251.utah.cloudlab.us
-amd254.utah.cloudlab.us
-amd246.utah.cloudlab.us
+amd265.utah.cloudlab.us
+amd252.utah.cloudlab.us
+amd272.utah.cloudlab.us
