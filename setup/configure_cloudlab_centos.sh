@@ -27,11 +27,20 @@ nasm -v
 
 
 cd ~/draid-spdk
-#返回到 draid- spdk
+#返回到 draid- spdk,安装rdma内核
 wget https://github.com/linux-rdma/rdma-core/releases/download/v53.1/rdma-core-53.1.tar.gz
 tar -xzvf rdma-core-53.1.tar.gz
 cd rdma-core-53.1
 
+
+#安装 CMake后，成功编译并安装了 rdma-core
+sudo dnf install cmake
+mkdir build
+cd build
+sudo dnf install libnl3-devel -y
+cmake ..
+make 
+sudo make install
 
 
 cd ~/draid-spdk
